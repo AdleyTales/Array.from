@@ -5,9 +5,9 @@
 ## 兼容代码写法如下：
 
 ```
-	if(!Array.from){
-	    Array.from = function (el) {
-	        return Array.apply(this, el);
-	    }
-	}
+if(!Array.from){
+    Array.from = function (el) {
+	return Array.apply(this, el);
+    }
+}
 ```
